@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>@OEMNAME@mfpsdrv</Name>
+        <Homepage>http://www.okidata.com</Homepage>
+        <Packager>
+            <Name>Admin</Name>
+            <Email>admin@</Email>
+        </Packager>
+        <License>OKI Data, GPLv2</License>
+        <PartOf>hardware.scanner</PartOf>
+        <Summary>MFP Driver</Summary>
+        <Description>MFP Driver</Description>
+        <Archive sha1sum="@SHA1SUM@" type="targz">@DIST@</Archive>
+    </Source>
+    <Package>
+        <Name>@OEMNAME@mfpsdrv</Name>
+        <Files>
+            <Path fileType="all">/</Path>
+        </Files>
+	    <Provides> 
+	        <COMAR script="package.py" name="@OEMNAME@mfpsdrv">System.Package</COMAR> 
+	        <COMAR script="service.py" name="@OEMNAME@scand">System.Service</COMAR> 
+	    </Provides>
+    </Package>
+    <History>
+        <Update release="@REV@">
+            <Date>2013-02-15</Date>
+            <Version>@MAJOR@.@MINOR@</Version>
+            <Comment>alpha release</Comment>
+            <Name>Admin</Name>
+            <Email>admin@</Email>
+        </Update>
+    </History>
+</PISI>

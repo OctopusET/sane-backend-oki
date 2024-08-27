@@ -1,0 +1,33 @@
+#!/usr/bin/python 
+import os
+
+SANE_DLL_CONF="/etc/sane.d/dll.conf"
+
+
+def append_conf():
+    fo = open(SANE_DLL_CONF, "a")
+    fo.write("@BACKENDNAME@\n")
+    fo.close()
+    print "configure %s for '@BACKENDNAME@'.\n" % (SANE_DLL_CONF)
+
+def remove_conf():
+    tmp = SANE_DLL_CONF+".tmp"
+    fotmp = open(tmp, "w")
+    fo = open(SANE_DLL_CONF, "r")
+    for l in fo:
+        if l != "@BACKENDNAME@\n":
+            fotmp.write(l)
+        else:
+            print "deconfigure %s for '@BACKENDNAME@'.\n" % (SANE_DLL_CONF)
+    fo.close()
+    fotmp.close()
+    os.remove(SANE_DLL_CONF)
+    os.rename(tmp, SANE_DLL_CONF)
+
+
+def postInstall(fromVersion, fromRelease, toVersion, toRelease): 
+    append_conf()
+
+def preRemove(): 
+    remove_conf()
+

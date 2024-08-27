@@ -1,0 +1,400 @@
+# Japanese translations for mfpdrv package
+# mfpdrv パッケージに対する英訳.
+# Copyright (C) 2012 THE mfpdrv'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mfpdrv package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mfpdrv 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-23 11:24+0900\n"
+"PO-Revision-Date: 2012-06-28 15:53+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../backend/odc_device.h:37
+#, no-c-format
+msgid "Standard"
+msgstr "Estándar"
+
+#: ../backend/odc_device.h:38
+#, no-c-format
+msgid "Source, mode and resolution options"
+msgstr "Fuente, opciones de modo y resolución"
+
+#: ../backend/odc_device.h:41
+#, no-c-format
+msgid "Selected range"
+msgstr "Rango seleccionado"
+
+#: ../backend/odc_device.h:42
+#, no-c-format
+msgid "Scan area and media size options"
+msgstr "Opciones de zona de escaneado y tamaño de soporte"
+
+#: ../backend/odc_device.h:45
+#, no-c-format
+msgid "Enhancement"
+msgstr "Mejoramiento"
+
+#: ../backend/odc_device.h:46
+#, no-c-format
+msgid "Image modification options"
+msgstr "Opciones de modificación de la imagen"
+
+#: ../backend/odc_device.h:49
+#, no-c-format
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../backend/odc_device.h:50
+#, no-c-format
+msgid "Hardware specific options"
+msgstr "Opciones específicas de hardware"
+
+#: ../backend/odc_device.h:53
+#, no-c-format
+msgid "Sensors"
+msgstr "Sensores"
+
+#: ../backend/odc_device.h:54
+#, no-c-format
+msgid "Scanner sensors and buttons"
+msgstr "Sensores y botones del escáner"
+
+#: ../backend/odc_products.h:30
+#, no-c-format
+msgid "Scan source"
+msgstr "Fuente de escaneado"
+
+#: ../backend/odc_products.h:31
+#, no-c-format
+msgid ""
+"Selects the scan source. If \"Auto\" is selected, and there is a "
+"document in the ADF, scanning is implemented from the ADF. If there is "
+"no document in the ADF, scanning is implemented from the flatbed."
+msgstr ""
+"Selecciona la fuente de escaneado. Si se selecciona \"Auto\", y hay un "
+"documento en el ADF, el escaneado se realizará desde el ADF. Si no hay "
+"documentos en el ADF, el escaneado se realiza desde el escáner de "
+"sobremesa."
+
+#: ../backend/odc_products.h:32
+#, no-c-format
+msgid "Auto"
+msgstr "Auto"
+
+#: ../backend/odc_products.h:33
+#, no-c-format
+msgid "Flatbed"
+msgstr "Escáner de sobremesa"
+
+#: ../backend/odc_products.h:34
+#, no-c-format
+msgid "Automatic Document Feeder (ADF)"
+msgstr "Alimentador de Documentos Automático (ADF)"
+
+#: ../backend/odc_products.h:39
+#, no-c-format
+msgid "Color mode"
+msgstr "Modo de color"
+
+#: ../backend/odc_products.h:40
+#, no-c-format
+msgid "Selects color mode."
+msgstr "Selecciona el modo de color."
+
+#: ../backend/odc_products.h:41
+#, no-c-format
+msgid "Color"
+msgstr "Color"
+
+#: ../backend/odc_products.h:42
+#, no-c-format
+msgid "Gray"
+msgstr "Gris"
+
+#: ../backend/odc_products.h:43
+#, no-c-format
+msgid "Black and white"
+msgstr "Blanco y negro"
+
+#: ../backend/odc_products.h:44
+#, no-c-format
+msgid "Halftone"
+msgstr "Semitonos"
+
+#: ../backend/odc_products.h:49
+#, no-c-format
+msgid "Scan resolution"
+msgstr "Resolución de escaneado"
+
+#: ../backend/odc_products.h:50
+#, no-c-format
+msgid ""
+"Determines the scan image sharpness. Normally, the higher the resolution "
+"(i.e., the greater the numerical value), the sharper the image, but "
+"greater scan time, memory, and disk space are required. Scan using "
+"resolution settings that conform to your objective."
+msgstr ""
+"Determina la nitidez de la imagen escaneada. Normalmente, a mayor "
+"resolución (es decir, el mayor valor numérico), más nítida la imagen, "
+"pero requiere más tiempo de escaneado, memoria y espacio en disco. "
+"Escanear usando la configuración de resolución según los objetivos."
+
+#: ../backend/odc_products.h:52
+#, no-c-format
+msgid "X-resolution"
+msgstr "Resolución X"
+
+#: ../backend/odc_products.h:53
+#, no-c-format
+msgid "Sets the horizontal resolution of the scanned image."
+msgstr "Establece la resolución horizontal de la imagen escaneada."
+
+#: ../backend/odc_products.h:55
+#, no-c-format
+msgid "Y-resolution"
+msgstr "Resolución Y"
+
+#: ../backend/odc_products.h:56
+#, no-c-format
+msgid "Sets the vertical resolution of the scanned image."
+msgstr "Establece la resolución vertical de la imagen escaneada."
+
+#: ../backend/odc_products.h:67 ../backend/odc_products.h:69
+#, no-c-format
+msgid "Duplex Scanning"
+msgstr "Escaneado Dúplex"
+
+#: ../backend/odc_products.h:70
+#, no-c-format
+msgid ""
+"Duplex scanning can be selected when the scanning method is set to ADF. "
+"You can also set the bookbinding position of the document."
+msgstr ""
+"El escaneado dúplex se puede seleccionar cuando el método de escaneado "
+"se configura en el ADF. Asimismo, puede configurar la posición de "
+"encuadernación de libros del documento."
+
+#: ../backend/odc_products.h:72
+#, no-c-format
+msgid "Binding direction"
+msgstr "Dirección de encuadernación"
+
+#: ../backend/odc_products.h:73
+#, no-c-format
+msgid "Choose the direction of the original."
+msgstr "Seleccione la dirección del original."
+
+#: ../backend/odc_products.h:74
+#, no-c-format
+msgid "Right and Left Binding"
+msgstr "Encuadernación Derecha e Izquierda"
+
+#: ../backend/odc_products.h:75
+#, no-c-format
+msgid "Top Binding"
+msgstr "Encuadernación superior"
+
+#: ../backend/odc_products.h:80
+#, no-c-format
+msgid "Filter"
+msgstr "Filtro"
+
+#: ../backend/odc_products.h:85
+#, no-c-format
+msgid "Sharpness"
+msgstr "Nitidez"
+
+#: ../backend/odc_products.h:86
+#, no-c-format
+msgid ""
+"Raise the contrast of the pixels adjacent to the image to sharpen fuzzy "
+"photos. Enabled when color mode is set to either gray scale or color."
+msgstr ""
+"Aumente el contraste de los pixeles adyacentes de la imagen mejorar las "
+"fotos borrosas. Habilitada cuando el modo de color está establecido en "
+"escala de grises o color."
+
+#: ../backend/odc_products.h:87
+#, no-c-format
+msgid "None"
+msgstr "Ninguno"
+
+#: ../backend/odc_products.h:88
+#, no-c-format
+msgid "Sharpen"
+msgstr "Aumentar nitidez"
+
+#: ../backend/odc_products.h:89
+#, no-c-format
+msgid "Sharpen More"
+msgstr "Mayor nitidez"
+
+#: ../backend/odc_products.h:94
+#, no-c-format
+msgid "Background Elimination"
+msgstr "Eliminación de Fondo"
+
+#: ../backend/odc_products.h:95
+#, no-c-format
+msgid ""
+"Remove the mixed color of the scanned image on which the corresponding "
+"parts shall be white."
+msgstr ""
+"Elimine los colores mezclados de la imagen escaneada donde las partes "
+"correspondientes serán blancas."
+
+#: ../backend/odc_products.h:96
+#, no-c-format
+msgid "Level0"
+msgstr "Nivel0"
+
+#: ../backend/odc_products.h:97
+#, no-c-format
+msgid "Level1"
+msgstr "Nivel1"
+
+#: ../backend/odc_products.h:98
+#, no-c-format
+msgid "Level2"
+msgstr "Nivel2"
+
+#: ../backend/odc_products.h:99
+#, no-c-format
+msgid "Level3"
+msgstr "Nivel3"
+
+#: ../backend/odc_products.h:100
+#, no-c-format
+msgid "Level4"
+msgstr "Nivel4"
+
+#: ../backend/odc_products.h:101
+#, no-c-format
+msgid "Level5"
+msgstr "Nivel5"
+
+#: ../backend/odc_products.h:102
+#, no-c-format
+msgid "Level6"
+msgstr "Nivel6"
+
+#: ../backend/odc_products.h:107
+#, no-c-format
+msgid "Edge Erase"
+msgstr "Borrado de borde"
+
+#: ../backend/odc_products.h:108
+#, no-c-format
+msgid ""
+"Mask edge areas of the document.(Erases shaded areas in the document.)"
+msgstr ""
+"Cubre los bordes del documento (borra las áreas sombreadas del "
+"documento)."
+
+#: ../backend/odc_products.h:110
+#, no-c-format
+msgid "Edge Erase Range"
+msgstr "Rango de borrado de bordes"
+
+#: ../backend/odc_products.h:111
+#, no-c-format
+msgid "Set Edge Erase Range"
+msgstr "Configuración del rango de borrado de bordes"
+
+#: ../backend/odc_products.h:116
+#, no-c-format
+msgid "Font Smoothing"
+msgstr "Suavizado de fuentes"
+
+#: ../backend/odc_products.h:117
+#, no-c-format
+msgid ""
+"Make text appear clearer. If  checkbox is enabled, text will appear "
+"smoother."
+msgstr ""
+"Hace que el texto aparezca más claro. Si se activa esta casilla, el "
+"texto aparecerá más claro."
+
+#: ../backend/odc_products.h:122
+#, no-c-format
+msgid "Moire Elimination"
+msgstr "Eliminación de moiré"
+
+#: ../backend/odc_products.h:123
+#, no-c-format
+msgid "Enable this checkbox to eliminate moire (wavy lines)."
+msgstr "Active esta casilla para eliminar el moiré (líneas onduladas)."
+
+#: ../backend/odc_products.h:128
+#, no-c-format
+msgid "Margin"
+msgstr "Margen"
+
+#: ../backend/odc_products.h:130
+#, no-c-format
+msgid "Right margin"
+msgstr "Margen derecho"
+
+#: ../backend/odc_products.h:131
+#, no-c-format
+msgid "Set right margin"
+msgstr "Establece el margen derecho"
+
+#: ../backend/odc_products.h:133
+#, no-c-format
+msgid "Bottom margin"
+msgstr "Margen inferior"
+
+#: ../backend/odc_products.h:134
+#, no-c-format
+msgid "Set bottom margin"
+msgstr "Establece el margen inferior"
+
+#: ../backend/odc_products.h:139
+#, no-c-format
+msgid "Top-left x"
+msgstr "Superior-izquierda x"
+
+#: ../backend/odc_products.h:140
+#, no-c-format
+msgid "Top-left x position of scan area."
+msgstr "Posición superior-izquierda x de la zona de escaneado."
+
+#: ../backend/odc_products.h:142
+#, no-c-format
+msgid "Top-left y"
+msgstr "Superior-izquierda y"
+
+#: ../backend/odc_products.h:143
+#, no-c-format
+msgid "Top-left y position of scan area."
+msgstr "Posición superior-izquierda y de la zona de escaneado."
+
+#: ../backend/odc_products.h:145
+#, no-c-format
+msgid "Bottom-right x"
+msgstr "Inferior-derecha x"
+
+#: ../backend/odc_products.h:146
+#, no-c-format
+msgid "Bottom-right x position of scan area."
+msgstr "Posición inferior-derecha x de la zona de escaneado."
+
+#: ../backend/odc_products.h:148
+#, no-c-format
+msgid "Bottom-right y"
+msgstr "Inferior-derecha y"
+
+#: ../backend/odc_products.h:149
+#, no-c-format
+msgid "Bottom-right y position of scan area."
+msgstr "Posición inferior-derecha y de la zona de escaneado."

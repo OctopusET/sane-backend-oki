@@ -1,0 +1,26 @@
+from comar.service import *
+import os
+
+serviceType = "server"
+serviceDefault = "on"
+serviceDesc = _({"en": "MFP Scan Service Daemon",
+                 "tr": "MFP Scan Service Daemon"})
+serviceConf = "@OEMNAME@scand"
+
+PIDFILE = "/var/run/@OEMNAME@scand.pid"
+
+@synchronized
+def start():
+    startService(command="@LIBEXECDIR@/@OEMNAME@mfpdrv/scand.sh", args="start", donotify=True)
+
+@synchronized
+def reload():
+    startService(command="@LIBEXECDIR@/@OEMNAME@mfpdrv/scand.sh", args="reload", donotify=True)
+
+@synchronized
+def stop():
+    stopService(command="@LIBEXECDIR@/@OEMNAME@mfpdrv/scand.sh", args="stop", donotify=True)
+
+def status():
+    return isServiceRunning(pidfile=PIDFILE)
+

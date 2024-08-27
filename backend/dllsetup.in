@@ -1,0 +1,17 @@
+#! /bin/sh
+FILE_NAME=@CONFIGDIR@/dll.conf
+
+case "$1" in
+-i)
+	cat << EOF >> $FILE_NAME
+@BACKENDNAME@
+EOF
+	;;
+-r)
+	mv $FILE_NAME $FILE_NAME.tmp
+	cat ${FILE_NAME}.tmp | sed '/^@BACKENDNAME@$/d' > ${FILE_NAME}
+	rm -f ${FILE_NAME}.tmp
+	;;
+*)
+	;;
+esac
