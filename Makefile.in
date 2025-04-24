@@ -299,8 +299,8 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-SUBDIRS = lib sanei backend po
-DIST_SUBDIRS = include lib sanei backend po
+SUBDIRS = lib driver sanei backend po
+DIST_SUBDIRS = include lib driver sanei backend po
 
 #dist_doc_DATA = AUTHORS ChangeLog COPYING LICENSE NEWS PROBLEMS PROJECTS README
 EXTRA_DIST = COPYING $(PACKAGE).lsm sane-backend.lsm.skel AUTHORS \

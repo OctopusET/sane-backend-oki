@@ -5,8 +5,8 @@
 ##  This file is part of the "Sane" build infra-structure.  See
 ##  included LICENSE file for license information.
 
-SUBDIRS = lib sanei backend po
-DIST_SUBDIRS = include lib sanei backend po
+SUBDIRS = lib driver sanei backend po
+DIST_SUBDIRS = include lib driver sanei backend po
 
 #dist_doc_DATA = AUTHORS ChangeLog COPYING LICENSE NEWS PROBLEMS PROJECTS README
 EXTRA_DIST = COPYING

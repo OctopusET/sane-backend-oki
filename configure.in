@@ -818,6 +818,7 @@ AC_CONFIG_FILES([\
   Makefile \
   include/Makefile \
   lib/Makefile \
+  driver/Makefile \
   sanei/Makefile \
   backend/Makefile \
   po/Makefile \

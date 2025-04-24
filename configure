@@ -21077,7 +21077,7 @@ DISTCLEAN_FILES="*~ .*~ *.log *.bak *.old *.orig *.out *.rej \"\#\"* \".\\#\"*"
 
 #AC_CONFIG_FILES([Makefile lib/Makefile sanei/Makefile frontend/Makefile \
 #  po/Makefile testsuite/Makefile tools/Makefile doc/doxygen-sanei.conf])
-ac_config_files="$ac_config_files Makefile include/Makefile lib/Makefile sanei/Makefile backend/Makefile po/Makefile"
+ac_config_files="$ac_config_files Makefile include/Makefile lib/Makefile driver/Makefile sanei/Makefile backend/Makefile po/Makefile"
 
 #AC_CONFIG_FILES([tools/sane-config], [chmod a+x tools/sane-config])
 #AC_CONFIG_FILES([tools/sane-backends.pc])
@@ -22213,6 +22213,7 @@ do
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "include/Makefile") CONFIG_FILES="$CONFIG_FILES include/Makefile" ;;
     "lib/Makefile") CONFIG_FILES="$CONFIG_FILES lib/Makefile" ;;
+    "driver/Makefile") CONFIG_FILES="$CONFIG_FILES driver/Makefile" ;;
     "sanei/Makefile") CONFIG_FILES="$CONFIG_FILES sanei/Makefile" ;;
     "backend/Makefile") CONFIG_FILES="$CONFIG_FILES backend/Makefile" ;;
     "po/Makefile") CONFIG_FILES="$CONFIG_FILES po/Makefile" ;;
