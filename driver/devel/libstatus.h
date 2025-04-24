@@ -1,0 +1,97 @@
+/*
+ * libstatus.h
+ * library status code definitions.
+ * Copyright (c) 2012 Oki Data Corporation. All rights reserved.
+ */
+
+#ifndef LIBSTATUS_H_
+#define LIBSTATUS_H_
+
+namespace odc {
+
+enum LibStatus
+{
+	SUCCESS = 0,				
+
+	CANCELED = 50,				
+	END_OF_PAGE,				
+	HAS_MORE_PAGE,				
+	NO_MORE_PAGE,				
+	NODATA,						
+
+	CONNECTED,					
+	NOT_CONNECTED,				
+	DISCONNECTED,				
+	DISCONNECT,					
+
+	ERROR = -99,				
+	FAIL,						
+	ARRAY_INDEX_OUT_OF_RANGE,	
+	ILLSTATE,					
+	INVARG,						
+	INVVAL,						
+	INVPRM,						
+	INVFNCCALL,					
+	INVDATA,					
+	INVALID,					
+	TIMEOUT,					
+	BUSY,						
+	REJECT,						
+	LOCKED,						
+	IOERROR,					
+	NOTENOSPC,					
+	NOMEMORY,					
+	UNKNOWN_USER,				
+	NOT_READY,					
+	NOT_STANDBY,				
+	NOT_SUPPORTED,				
+	NOT_EXISTS,					
+
+	CONNECTION_REFUSED,			
+
+	FIOERROR,					
+	OPEN_ERROR,					
+	ALREADY_OPENED,				
+	CLOSED,						
+	NOT_OPENED,					
+	NO_SUCH_FILE,				
+	PERMISSION_DENIED,			
+	END_OF_FILE,				
+	HAS_NO_ENTRIES,				
+	HAS_ENTRIES,				
+	UNKNOWN_DEVICE,				
+	UNKNOWN_MODEL,				
+
+	DEVICE_BUSY = -199,			
+	SYSTEM_BUSY,				
+	ACCESS_REFUSED,				
+	ACCESS_DENIED,				
+	ADF_NO_PAPER,				
+	ADF_PAPER_COVER_OPEN,		
+	ADF_PAPER_JAMMED,			
+	ADF_PAPER_FEED_ERROR,		
+	CCD_CARRIAGE_LOCK,			
+	HOME_POSITION_ERROR,		
+	MEMORY_FULL,				
+	INVALID_COMMAND_CODE,		
+	INVALID_VALUE,				
+	INVALID_PARAMETER,			
+	INVALID_DATA,				
+	INVALID_COMMAND_LENGTH,		
+	INVALID_DATA_LENGTH,		
+	RAM_TEST_FAILED,			
+	CALIBRATION_TEST_FAILED,	
+	DEVICE_INTERNAL_ERROR,		
+	SENSOR_ERROR,				
+	HOME_SENSOR_ERROR,			
+	LAMP_ERROR,					
+	FAN_ERROR,					
+	UNPLUGGED_ERROR,			
+	MIRROR_CARRIAGE_ERROR,		
+	COMMUNICATION_ERROR,		
+	DETECT_CD,					
+};
+
+}; 
+
+#endif /* LIBSTATUS_H_ */

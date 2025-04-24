@@ -1,0 +1,175 @@
+@OEMNAME@@PACKAGENAME@ (@NUMBERVERSION@) stable; urgency=low
+
+  * Version 1.7-0 Release
+
+    - Driver version          @DRIVERVERSION@
+    - Utility version         @UTILSVERSION@
+    - Sane backend version    @SANEBACKENDVERSION@
+
+    o bugs fixed.[Driver]
+
+ -- Oki Data Corporation <> Fri, 31 AUG 2018 00:00:00 +0900
+  * Version 1.6-0 Release
+
+    - Driver version          1.4.0
+    - Utility version         1.2.0
+    - Sane backend version    1.2.0
+
+    o adds supported devices.[Driver]
+      - MC363,MC573,ES5473 MFP,ES5463 MFP,MC563
+
+ -- Oki Data Corporation <> Fri, 7 OCT 2016 00:00:00 +0900
+
+okimfpsdrv (1.5-0) unstable; urgency=low
+
+  * Version 1.5-0 Release
+
+    - Driver version          1.3.0
+    - Utility version         1.2.0
+    - Sane backend version    1.2.0
+
+    o adds supported devices.[Driver]
+      - MB472,MB492,MB562,ES4192 MFP,ES5162 MFP, ES4172LP MFP, ES5162LP MFP,MC332, MC342,MPS2731mc,MC853,MC863,MC873,MC883,ES8453 MFP,ES8463 MFP,ES8473 MFP,ES8483 MFP.
+
+ -- Oki Data Corporation <> Thu, 20 AUG 2015 00:00:00 +0900
+
+okimfpsdrv (1.4-0) unstable; urgency=low
+
+  * Version 1.4-0 Release
+
+    - Driver version          1.2.0
+    - Utility version         1.2.0
+    - Sane backend version    1.2.0
+
+    o adds language support: ru.[All]
+
+ -- Oki Data Corporation <> Wed, 22 JUL 2015 00:00:00 +0900
+
+okimfpsdrv (1.3-0) unstable; urgency=low
+
+  * Version 1.3 -0 Release
+
+    - Driver version          1.2.0
+    - Utility version         1.1.4
+    - Sane backend version    1.1.3
+
+    o adds supported devices.[Driver]
+      - MB472,MB492 MFP.
+
+ -- Oki Data Corporation <> Fri, 10 JUL 2015 00:00:00 +0900
+
+okimfpsdrv (1.2a-4) unstable; urgency=low
+
+  * Version 1.2 alpha-4 Release.
+  
+    - Driver version          1.1.4
+    - Utility version         1.1.4
+    - Sane backend version    1.1.3
+  
+    o adds showing message notification by the Message-dialog.[Utils]
+    o adds showing Scan-window in running PushScan.[Utils]
+    o new Scan-window.[Utils]
+    o added the 'Start Scan' into Applet-Menu.[Utils]
+    o adds Configuration-window. [Utils]
+        rearranged PushScan-Configuration-window.
+        added the general configuration options.
+    o fixed a invalid encoding by file format conversion at the output file name including multibyte-character.[Utils]
+
+ -- Oki Data Corporation <>  Wed, 20 Mar 2013 00:00:00 +0900
+
+okimfpsdrv (1.2a-3) unstable; urgency=low
+
+  * Version 1.2 alpha-3 Release.
+  
+    - Driver version          1.1.4
+    - Utility version         1.1.3
+    - Sane backend version    1.1.3
+  
+    o adds support for Pardus Linux.[All]
+    o adds support KDE.[Utils]
+
+ -- Oki Data Corporation <>  Fri, 15 Feb 2013 00:00:00 +0900
+
+okimfpsdrv (1.2.0) unstable; urgency=low
+
+  * Version 1.2.0 alpha-2 Release.
+  
+    - Driver version          1.1.3
+    - Utility version         1.1.2
+    - Sane backend version    1.1.2
+  
+    o adds html help.[Driver,Utils]
+    o adds backend document.[Sane-backend]
+
+ -- Oki Data Corporation <>  Thu, 20 Dec 2012 00:00:00 +0900
+
+okimfpsdrv (1.1.3) stable; urgency=low
+
+  * Version 1.1.3 Release.
+  
+    - Driver version          1.1.3
+    - Utility version         1.1.1
+    - Sane-backend version    1.1.2
+  
+    o change supported devices.[Driver]
+      - added:MC852,MC862,ES8462 MFP,MB461+LP MFP,MB491+LP MFP,MPS4700mb MFP.
+      - removed:MB460,MB470,MB480,ES4160 MFP,ES4180 MFP.
+    o disable network support.[Driver]
+      - MC860,MC851,MC861,CX2633 MFP,ES8460 MFP,ES8451 MFP,ES8461 MFP.
+    o scan daemon IF become shared library.[Driver,Sane-backend]
+    o performance inprovement of the USB scan.[Driver]
+
+ -- Oki Data Corporation <>  Thu, 20 Dec 2012 00:00:00 +0900
+
+okimfpsdrv (1.2.0) unstable; urgency=low
+
+  * Version 1.2.0 alpha-1 Release.
+  
+    - Driver version          1.1.2
+    - Utility version         1.1.1
+    - Sane backend version    1.1.1
+  
+    o adds language support: fr/it/de/es/pt_BR.[All]
+
+ -- Oki Data Corporation <>  Thu, 20 Dec 2012 00:00:00 +0900
+
+okimfpsdrv (1.1.2) stable; urgency=low
+
+  * Version 1.1.2 Release.
+  
+    - Driver version          1.1.2
+    - Utility version         1.1.1
+    - Sane-backend version    1.1.1
+  
+    o bugs fixed.
+      - Scand is terminated abnormally when USB device removed.[Driver]
+
+ -- Oki Data Corporation <>  Thu, 1 Nov 2012 00:00:00 +0900
+
+okimfpsdrv (1.1.1) stable; urgency=low
+
+  * Version 1.1.1 Release.
+  
+    - Driver version          1.1.1
+    - Utility version         1.1.1
+    - Sane-backend version    1.1.1
+  
+    o bugs fixed.
+
+ -- Oki Data Corporation <>  Tue, 30 Oct 2012 00:00:00 +0900
+
+okimfpsdrv (1.1.0) stable; urgency=low
+
+  * Version 1.1.0 Release.
+  
+    o Adds support for PushScan.
+    o Added the scanning tools and commands.
+    o Scanning function changed to system service as daemon.
+
+ -- Oki Data Corporation <>  Thu, 20 Sep 2012 00:00:00 +0900
+
+okimfpsdrv (1.0.0) stable; urgency=low
+
+  * Version 1.0.0 Release.
+
+ -- Oki Data Corporation <>  Wed, 20 Mar 2012 00:00:00 +0900

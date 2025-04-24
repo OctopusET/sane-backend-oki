@@ -1,0 +1,9 @@
+# List of source files containing translatable strings
+# paths relative to po
+../backend/odc.cpp
+../backend/odc.h
+../backend/odc_device.cpp
+../backend/odc_device.h
+../backend/odc_products.cpp
+../backend/odc_products.h
+

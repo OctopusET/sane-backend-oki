@@ -1,0 +1,403 @@
+# Japanese translations for mfpdrv package
+# mfpdrv パッケージに対する英訳.
+# Copyright (C) 2012 THE mfpdrv'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mfpdrv package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mfpdrv 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-23 11:24+0900\n"
+"PO-Revision-Date: 2012-06-28 15:53+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../backend/odc_device.h:37
+#, no-c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../backend/odc_device.h:38
+#, no-c-format
+msgid "Source, mode and resolution options"
+msgstr "Options de sources, modes et résolutions"
+
+#: ../backend/odc_device.h:41
+#, no-c-format
+msgid "Selected range"
+msgstr "Plage sélectionnée"
+
+#: ../backend/odc_device.h:42
+#, no-c-format
+msgid "Scan area and media size options"
+msgstr "Options de zone et de format de numérisation "
+
+#: ../backend/odc_device.h:45
+#, no-c-format
+msgid "Enhancement"
+msgstr "Amélioration"
+
+#: ../backend/odc_device.h:46
+#, no-c-format
+msgid "Image modification options"
+msgstr "Options de modification d'image"
+
+#: ../backend/odc_device.h:49
+#, no-c-format
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ../backend/odc_device.h:50
+#, no-c-format
+msgid "Hardware specific options"
+msgstr "Options Spécifiques de matériel"
+
+#: ../backend/odc_device.h:53
+#, no-c-format
+msgid "Sensors"
+msgstr "Capteurs"
+
+#: ../backend/odc_device.h:54
+#, no-c-format
+msgid "Scanner sensors and buttons"
+msgstr "Capteurs et touches du scanneur"
+
+#: ../backend/odc_products.h:30
+#, no-c-format
+msgid "Scan source"
+msgstr "Source de numérisation"
+
+#: ../backend/odc_products.h:31
+#, no-c-format
+msgid ""
+"Selects the scan source. If \"Auto\" is selected, and there is a "
+"document in the ADF, scanning is implemented from the ADF. If there is "
+"no document in the ADF, scanning is implemented from the flatbed."
+msgstr ""
+"Sélectionne la source de numérisation. Si \"Auto\" est sélectionné, et "
+"qu'il y a un document dans le Chargeur automatique de documents, la "
+"numérisation est mise en oeuvre depuis le Chargeur automatique de "
+"documents. S'il n'y a pas de document dans le Chargeur automatique de "
+"documents, la numérisation est mise en oeuvre depuis le scanneur à plat."
+
+#: ../backend/odc_products.h:32
+#, no-c-format
+msgid "Auto"
+msgstr "Auto"
+
+#: ../backend/odc_products.h:33
+#, no-c-format
+msgid "Flatbed"
+msgstr "Scanneur à plat"
+
+#: ../backend/odc_products.h:34
+#, no-c-format
+msgid "Automatic Document Feeder (ADF)"
+msgstr "Chargeur automatique de documents (ADF)"
+
+#: ../backend/odc_products.h:39
+#, no-c-format
+msgid "Color mode"
+msgstr "Mode couleur"
+
+#: ../backend/odc_products.h:40
+#, no-c-format
+msgid "Selects color mode."
+msgstr "Sélectionne le mode couleur."
+
+#: ../backend/odc_products.h:41
+#, no-c-format
+msgid "Color"
+msgstr "Couleur"
+
+#: ../backend/odc_products.h:42
+#, no-c-format
+msgid "Gray"
+msgstr "Gris"
+
+#: ../backend/odc_products.h:43
+#, no-c-format
+msgid "Black and white"
+msgstr "Noir et blanc"
+
+#: ../backend/odc_products.h:44
+#, no-c-format
+msgid "Halftone"
+msgstr "Demi-teintes"
+
+#: ../backend/odc_products.h:49
+#, no-c-format
+msgid "Scan resolution"
+msgstr "Résolution de la numérisation"
+
+#: ../backend/odc_products.h:50
+#, no-c-format
+msgid ""
+"Determines the scan image sharpness. Normally, the higher the resolution "
+"(i.e., the greater the numerical value), the sharper the image, but "
+"greater scan time, memory, and disk space are required. Scan using "
+"resolution settings that conform to your objective."
+msgstr ""
+"Détermine la netteté de l'image numérisée. En général, plus la "
+"résolution est haute (c.-à-.d., plus la valeur numérique est grande), "
+"plus l'image est nette, mais il est nécessaire d'avoir plus de temps de "
+"numérisation, de mémoire et d'espace dans le disque. Numérisation à "
+"l'aide des paramètres de résolution conformes à votre objectif."
+
+#: ../backend/odc_products.h:52
+#, no-c-format
+msgid "X-resolution"
+msgstr "Résolution horizontale (X)"
+
+#: ../backend/odc_products.h:53
+#, no-c-format
+msgid "Sets the horizontal resolution of the scanned image."
+msgstr "Définit la résolution horizontale de l'image numérisée."
+
+#: ../backend/odc_products.h:55
+#, no-c-format
+msgid "Y-resolution"
+msgstr "Résolution verticale (Y)"
+
+#: ../backend/odc_products.h:56
+#, no-c-format
+msgid "Sets the vertical resolution of the scanned image."
+msgstr "Définit la résolution verticale de l'image numérisée."
+
+#: ../backend/odc_products.h:67 ../backend/odc_products.h:69
+#, no-c-format
+msgid "Duplex Scanning"
+msgstr "Numérisation en mode duplex"
+
+#: ../backend/odc_products.h:70
+#, no-c-format
+msgid ""
+"Duplex scanning can be selected when the scanning method is set to ADF. "
+"You can also set the bookbinding position of the document."
+msgstr ""
+"Il est possible de sélectionner la numérisation en mode duplex lorsque "
+"la méthode de numérisation est définie avec le Chargeur automatique de "
+"documents. Vous pouvez également définir la position de reliure du "
+"document."
+
+#: ../backend/odc_products.h:72
+#, no-c-format
+msgid "Binding direction"
+msgstr "Sens de la reliure"
+
+#: ../backend/odc_products.h:73
+#, no-c-format
+msgid "Choose the direction of the original."
+msgstr "Choisissez le sens de l'original."
+
+#: ../backend/odc_products.h:74
+#, no-c-format
+msgid "Right and Left Binding"
+msgstr "Reliure à droite et à gauche"
+
+#: ../backend/odc_products.h:75
+#, no-c-format
+msgid "Top Binding"
+msgstr "Reliure sur le haut"
+
+#: ../backend/odc_products.h:80
+#, no-c-format
+msgid "Filter"
+msgstr "Filtre"
+
+#: ../backend/odc_products.h:85
+#, no-c-format
+msgid "Sharpness"
+msgstr "Netteté"
+
+#: ../backend/odc_products.h:86
+#, no-c-format
+msgid ""
+"Raise the contrast of the pixels adjacent to the image to sharpen fuzzy "
+"photos. Enabled when color mode is set to either gray scale or color."
+msgstr ""
+"Augmenter le contraste des pixels adjacents à l'image pour réduire le "
+"flou des photos. Activé lorsque le mode couleur est réglé soit sur une "
+"échelle de gris ou sur couleur.  "
+
+#: ../backend/odc_products.h:87
+#, no-c-format
+msgid "None"
+msgstr "Aucun"
+
+#: ../backend/odc_products.h:88
+#, no-c-format
+msgid "Sharpen"
+msgstr "Accentuer"
+
+#: ../backend/odc_products.h:89
+#, no-c-format
+msgid "Sharpen More"
+msgstr "Accentuer davantage"
+
+#: ../backend/odc_products.h:94
+#, no-c-format
+msgid "Background Elimination"
+msgstr "Élimination de l'Arrière-plan"
+
+#: ../backend/odc_products.h:95
+#, no-c-format
+msgid ""
+"Remove the mixed color of the scanned image on which the corresponding "
+"parts shall be white."
+msgstr ""
+"Supprimer le mélange de couleurs de l'image numérisée sur laquelle les "
+"parties correspondantes seront blanches."
+
+#: ../backend/odc_products.h:96
+#, no-c-format
+msgid "Level0"
+msgstr "Niveau 0"
+
+#: ../backend/odc_products.h:97
+#, no-c-format
+msgid "Level1"
+msgstr "Niveau 1"
+
+#: ../backend/odc_products.h:98
+#, no-c-format
+msgid "Level2"
+msgstr "Niveau 2"
+
+#: ../backend/odc_products.h:99
+#, no-c-format
+msgid "Level3"
+msgstr "Niveau 3"
+
+#: ../backend/odc_products.h:100
+#, no-c-format
+msgid "Level4"
+msgstr "Niveau 4"
+
+#: ../backend/odc_products.h:101
+#, no-c-format
+msgid "Level5"
+msgstr "Niveau 5"
+
+#: ../backend/odc_products.h:102
+#, no-c-format
+msgid "Level6"
+msgstr "Niveau 6"
+
+#: ../backend/odc_products.h:107
+#, no-c-format
+msgid "Edge Erase"
+msgstr "Suppression des contours"
+
+#: ../backend/odc_products.h:108
+#, no-c-format
+msgid ""
+"Mask edge areas of the document.(Erases shaded areas in the document.)"
+msgstr ""
+"Masquer les zones des bords du document.(Efface les zones ombrées du "
+"document.)"
+
+#: ../backend/odc_products.h:110
+#, no-c-format
+msgid "Edge Erase Range"
+msgstr "Plage de suppression des contours"
+
+#: ../backend/odc_products.h:111
+#, no-c-format
+msgid "Set Edge Erase Range"
+msgstr "Définir la plage de suppression des contours"
+
+#: ../backend/odc_products.h:116
+#, no-c-format
+msgid "Font Smoothing"
+msgstr "Lissage de police "
+
+#: ../backend/odc_products.h:117
+#, no-c-format
+msgid ""
+"Make text appear clearer. If  checkbox is enabled, text will appear "
+"smoother."
+msgstr ""
+"Rend le texte plus clair. Si la case est activée, le texte apparaîtra "
+"plus lisse."
+
+#: ../backend/odc_products.h:122
+#, no-c-format
+msgid "Moire Elimination"
+msgstr "Élimination du moiré"
+
+#: ../backend/odc_products.h:123
+#, no-c-format
+msgid "Enable this checkbox to eliminate moire (wavy lines)."
+msgstr "Cochez cette case pour éliminer le moiré (lignes ondulées)."
+
+#: ../backend/odc_products.h:128
+#, no-c-format
+msgid "Margin"
+msgstr "Marge"
+
+#: ../backend/odc_products.h:130
+#, no-c-format
+msgid "Right margin"
+msgstr "Marge droite"
+
+#: ../backend/odc_products.h:131
+#, no-c-format
+msgid "Set right margin"
+msgstr "Définir la marge de droite "
+
+#: ../backend/odc_products.h:133
+#, no-c-format
+msgid "Bottom margin"
+msgstr "Marge inférieure"
+
+#: ../backend/odc_products.h:134
+#, no-c-format
+msgid "Set bottom margin"
+msgstr "Définir la marge inférieure"
+
+#: ../backend/odc_products.h:139
+#, no-c-format
+msgid "Top-left x"
+msgstr "Supérieur gauche - horizontal"
+
+#: ../backend/odc_products.h:140
+#, no-c-format
+msgid "Top-left x position of scan area."
+msgstr "Position horizontale supérieure gauche de la zone de numérisation."
+
+#: ../backend/odc_products.h:142
+#, no-c-format
+msgid "Top-left y"
+msgstr "Supérieur gauche - vertical"
+
+#: ../backend/odc_products.h:143
+#, no-c-format
+msgid "Top-left y position of scan area."
+msgstr "Position verticale supérieure gauche de la zone de numérisation."
+
+#: ../backend/odc_products.h:145
+#, no-c-format
+msgid "Bottom-right x"
+msgstr "Inférieur droit - horizontal"
+
+#: ../backend/odc_products.h:146
+#, no-c-format
+msgid "Bottom-right x position of scan area."
+msgstr "Position horizontale inférieure droite de la zone de numérisation."
+
+#: ../backend/odc_products.h:148
+#, no-c-format
+msgid "Bottom-right y"
+msgstr "Inférieur droit - vertical"
+
+#: ../backend/odc_products.h:149
+#, no-c-format
+msgid "Bottom-right y position of scan area."
+msgstr "Position verticale inférieure droite de la zone de numérisation."

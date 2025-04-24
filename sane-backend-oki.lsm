@@ -1,0 +1,17 @@
+Begin4
+Title:          sane-backend-oki
+Version:        _VERSION_
+Entered-date:   _DATE_
+Description:    SANE (Scanner Access Now Easy) backend
+Keywords:       scanner, flatbed, automatic document feeder (ADF)
+Author:         
+Maintained-by:  
+Primary-site:   
+                _T_S_ kB sane-backend-oki-_VERSION_.tar.gz
+                _L_S_ kB sane-backend-oki-_VERSION_.lsm
+Alternate-site: 
+Platforms:      Linux (x86,x86_64/amd64).
+                GNU make is needed.
+Copying-policy: GPL (programs), relaxed GPL (libraries), and public domain
+                (SANE standard)
+End
