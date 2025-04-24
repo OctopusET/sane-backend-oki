@@ -27,7 +27,7 @@
 
 #include <locale.h>
 #include <libintl.h>
-#define BACKEND_TEXTDOMAIN "sane-backend-"STRINGIFY(BACKEND_NAME)
+#define BACKEND_TEXTDOMAIN "sane-backend-oki"
 #define BACKEND_I18N(text) dgettext(BACKEND_TEXTDOMAIN, text)
 
 #include "../include/sane/sane.h"
