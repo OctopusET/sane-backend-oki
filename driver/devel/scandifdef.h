@@ -9,7 +9,7 @@
 #include <stdint.h>
 
 
-#define SCAND_UDSOCKNAME "/dev/"OEMNAME"scand"
+#define SCAND_UDSOCKNAME "/dev/okiscand"
 
 
 enum MsgTypeKind
